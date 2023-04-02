@@ -1,4 +1,4 @@
-on: [ push ]
+on: [push]
 
 jobs:
   build_and_test:
@@ -12,4 +12,3 @@ jobs:
         run: make deps
       - name: Tests
         run: make test
-      
